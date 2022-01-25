@@ -27,20 +27,20 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <div className="gpt3__navbar">
-      <div className="gpt3__navbar-links">
-        <div className="gpt3__navbar-links_logo">
+    <div className="ao__navbar">
+      <div className="ao__navbar-links">
+        <div className="ao__navbar-links_logo">
           <img src={logo} alt="logo" />
         </div>
-        <div className="gpt3__navbar-links_container">
+        <div className="ao__navbar-links_container">
           <Menu />
         </div>
       </div>
-      <div className="gpt3__navbar-sign">
+      <div className="ao__navbar-sign">
         <p>Sign in</p>
         <button type="button">Sign up</button>
       </div>
-      <div className="gpt3__navbar-menu">
+      <div className="ao__navbar-menu">
         {toggleMenu ? (
           <RiCloseLine
             color="#fff"
@@ -55,10 +55,10 @@ const Navbar = () => {
           />
         )}
         {toggleMenu && (
-          <div className="gpt3__navbar-menu_container scale-up-center">
-            <div className="gpt3__navbar-menu_container-links">
+          <div className="ao__navbar-menu_container scale-up-center">
+            <div className="ao__navbar-menu_container-links">
               <Menu />
-              <div className="gpt3__navbar-menu_container-links-sign">
+              <div className="ao__navbar-menu_container-links-sign">
                 <p>Sign in</p>
                 <button type="button">Sign up</button>
               </div>
