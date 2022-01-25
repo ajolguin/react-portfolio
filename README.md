@@ -1,3 +1,7 @@
+#Adrian's React Portfolio Project
+
+This project is a demonstration of my ongoing Udemy React certification course in tandem with a YouTube tutorial to build a portfolio website using React. To view my progress, visit: [https://aolguin.netlify.app](https://aolguin.netlify.app).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
