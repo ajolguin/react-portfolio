@@ -17,10 +17,8 @@ const Header = () => {
       </h2>
       </div>
         <p>
-          Yet bed any for travelling assistance indulgence unpleasing. Not
-          thoughts all exercise blessing. Indulgence way everything joy
-          alteration boisterous the attachment. Party we years to order allow
-          asked of.
+          Helping small businesses create eye-catching and user-friendly websites to generate web traffic and grow their online presence
+          using modern web technologies built to scale. Get in touch today!
         </p>
         <div className="ao__header-content__input">
           <input type="email" placeholder="Your Email Address" />

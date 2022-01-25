@@ -28,17 +28,16 @@ const Navbar = () => {
 
   return (
     <div className="ao__navbar">
-      <div className="ao__navbar-links">
-        <div className="ao__navbar-links_logo">
-          <img src={logo} alt="logo" />
+      <div className="ao__navbar-links_logo">
+          <h1 className="gradient__text">ADRIAN OLGUIN</h1>
         </div>
+      <div className="ao__navbar-links">
         <div className="ao__navbar-links_container">
           <Menu />
         </div>
       </div>
       <div className="ao__navbar-sign">
-        <p>Sign in</p>
-        <button type="button">Sign up</button>
+        <button type="button">Contact Me</button>
       </div>
       <div className="ao__navbar-menu">
         {toggleMenu ? (

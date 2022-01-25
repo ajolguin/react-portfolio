@@ -7,6 +7,7 @@
 
 body {
   background: var(--color-bg);
+  font-family: var(--font-family);
 }
 
 a {
@@ -90,6 +91,12 @@ a {
   100% {
     -webkit-transform: scale(1);
     transform: scale(1);
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .section__padding{
+    padding: 0 6rem;
   }
 }
 
