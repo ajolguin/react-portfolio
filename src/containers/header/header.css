@@ -17,8 +17,16 @@
   font-family: var(--font-family);
   font-weight: 800;
   font-size: 62px;
-  line-height: 75px;
+  line-height: 85px;
   letter-spacing: -0.04em;
+}
+
+.ao__header-content h2{
+  font-family: var(--font-family);
+}
+
+.ao__header-content span{
+  font-weight: 200;
 }
 
 .ao__header-content p {
