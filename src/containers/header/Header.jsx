@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.css";
 import people from "../../assets/people.png";
-import ai from "../../assets/ai.png";
+import adrian from "../../assets/adrian-bitmoji.png";
 import Typical from 'react-typical';
 
 const Header = () => {
@@ -30,7 +30,7 @@ const Header = () => {
         </div>
       </div>
       <div className="ao__header-image">
-        <img src={ai} alt="ai" />
+        <img src={adrian} alt="adrian" />
       </div>
     </div>
   );

@@ -1,15 +1,14 @@
-.gpt3__brand {
+.ao__brand {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
-.gpt3__brand div {
-  flex: 1;
+.ao__brand div {
   max-width: 150px;
-  min-width: 120px;
-  margin: 1rem;
+  min-width: 60px;
+  margin: 1rem 0;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -1,7 +1,4 @@
-import google from "../../assets/google.png";
-import slack from "../../assets/slack.png";
-import atlassian from "../../assets/atlassian.png";
-import dropbox from "../../assets/dropbox.png";
-import shopify from "../../assets/shopify.png";
+import linkedin from "../../assets/linkedin.png";
+import github from "../../assets/github.png";
 
-export { google, slack, atlassian, dropbox, shopify };
+export { linkedin, github }

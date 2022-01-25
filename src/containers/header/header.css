@@ -117,8 +117,14 @@
 }
 
 .ao__header-image img {
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
+}
+
+@media screen and (min-width: 1600px){
+  .ao__header{
+    padding-bottom: 6rem !important;
+  }
 }
 
 @media screen and (max-width: 1050px) {
