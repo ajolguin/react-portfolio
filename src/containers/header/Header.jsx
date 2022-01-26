@@ -3,6 +3,7 @@ import "./header.css";
 import people from "../../assets/people.png";
 import adrian from "../../assets/adrian-bitmoji.png";
 import Typical from 'react-typical';
+import resume from '../../assets/resume.pdf';
 
 const Header = () => {
   return (
@@ -21,8 +22,8 @@ const Header = () => {
           using modern web technologies built to scale. Get in touch today!
         </p>
         <div className="ao__header-content__input">
-          <input type="email" placeholder="Your Email Address" />
-          <button type="button">Get Started</button>
+          <a href="mailto:aolguin8097@gmail.com"><button type="button">Contact Me</button></a>
+          <a href={resume}><button type="button">Download Resume</button></a>
         </div>
         <div className="ao__header-content__people">
           <img src={people} alt="people" />
