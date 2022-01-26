@@ -36,7 +36,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="ao__navbar-sign">
-        <button type="button">Contact Me</button>
+        <a href="mailto:aolguin8097@gmail.com"><button type="button">Contact Me</button></a>
       </div>
       <div className="ao__navbar-menu">
         {toggleMenu ? (
@@ -57,8 +57,7 @@ const Navbar = () => {
             <div className="ao__navbar-menu_container-links">
               <Menu />
               <div className="ao__navbar-menu_container-links-sign">
-                <p>Sign in</p>
-                <button type="button">Sign up</button>
+                <a href="mailto:aolguin8097@gmail.com"><button type="button">Contact Me</button></a>
               </div>
             </div>
           </div>
