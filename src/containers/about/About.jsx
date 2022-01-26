@@ -8,12 +8,12 @@ const About = () => {
       <div className="ao__about-feature">
         <Feature
           title="About Me"
-          text="We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by."
+          text="Currently a WordPress Developer/Programmer for Purpose Driven Connection. I found a particular passion for Web Development and building products that makes the lives of others easier. Outside of work, I enjoy watching basketball, playing video games and hanging out with friends and family. This webpage is currently a work in progress and a project for myself to practice using HTML, CSS, JavaScript/jQuery, Bootstrap and more to build an interactive and responsive online portfolio."
         />
       </div>
       <div className="ao__about-heading">
         <h1 className="gradient__text">
-          The possibilities are beyond your imagination
+          About Me
         </h1>
         <p>Explore the library</p>
       </div>
