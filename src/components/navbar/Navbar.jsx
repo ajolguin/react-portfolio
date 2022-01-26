@@ -28,7 +28,7 @@ const Navbar = () => {
   return (
     <div className="ao__navbar">
       <div className="ao__navbar-links_logo">
-          <h1 className="gradient__text">ADRIAN OLGUIN</h1>
+          <h1 className="gradient__text"><a href="#home">ADRIAN OLGUIN</a></h1>
         </div>
       <div className="ao__navbar-links">
         <div className="ao__navbar-links_container">

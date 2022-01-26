@@ -1,9 +1,9 @@
 import React from "react";
 import {
   Footer,
-  Blog,
-  Possibility,
   Projects,
+  Possibility,
+  Services,
   About,
   Header,
 } from "./containers";
@@ -20,9 +20,9 @@ const App = () => {
       </div>
       <About />
       <Projects />
+      <Services />
       <Possibility />
       <CTA />
-      <Blog />
       <Footer />
     </div>
   );

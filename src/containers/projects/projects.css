@@ -1,59 +1,76 @@
 .ao__projects {
-  width: 100%;
   display: flex;
-  justify-content: space-between;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .ao__projects-heading {
-  flex: 1;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
-
+  width: 100%;
   text-align: left;
-  margin-right: 5rem;
+
+  margin-bottom: 5rem;
 }
 
 .ao__projects-heading h1 {
-  font-size: 34px;
-  line-height: 45px;
+  font-size: 62px;
+  line-height: 75px;
+  font-family: var(--font-family);
   font-weight: 800;
-  font-family: var(--font-family);
-}
-
-.ao__projects-heading p {
-  color: var(--color-subtext);
-  font-size: 16px;
-  line-height: 30px;
-  font-weight: 500;
-  font-family: var(--font-family);
-
-  margin-top: 2rem;
 }
 
 .ao__projects-container {
-  flex: 1.5;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: column;
+  flex-direction: row;
+}
+
+.ao__projects-container_groupA {
+  flex: 0.75;
+  margin-right: 2rem;
+}
+
+.ao__projects-container_groupB {
+  flex: 1;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
 }
 
 @media screen and (max-width: 990px) {
-  .ao__projects {
-    flex-direction: column;
+  .ao__projects-container {
+    flex-direction: column-reverse;
   }
 
-  .ao__projects-heading {
-    margin: 0 0 2rem 0;
+  .ao__projects-container_groupA {
+    margin: 2rem 0;
+  }
+
+  .ao__projects-container_groupA .ao__projects-container_article {
+    width: 48%;
+  }
+
+  .ao__projects-container_groupA .ao__projects-container_article-image {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .ao__projects-container_groupB {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .ao__projects-container_groupA .ao__projects-container_article {
+    width: 100%;
+  }
+
+  .ao__projects-heading h1 {
+    font-size: 46px;
+    line-height: 52px;
   }
 }
 
 @media screen and (max-width: 550px) {
   .ao__projects-heading h1 {
-    font-size: 28px;
-    line-height: 38px;
+    font-size: 34px;
+    line-height: 42px;
   }
 }

@@ -1,6 +1,5 @@
 import React from "react";
 import "./header.css";
-import people from "../../assets/people.png";
 import adrian from "../../assets/adrian-bitmoji.png";
 import Typical from 'react-typical';
 import resume from '../../assets/resume.pdf';
@@ -9,7 +8,7 @@ const Header = () => {
   return (
     <div className="ao__header section__padding" id="home">
       <div className="ao__header-content">
-        <h1 className="gradient__text">Hello, I'm Adrian Olguin</h1>
+        <h1 className="gradient__text">Hi, I'm Adrian Olguin</h1>
         <div className="gradient__text">
         <h2><span>I'm a </span> <Typical
         steps={['Web/Front End Developer', 1000, 'UI/UX Designer', 1000, 'Dog Dad', 1000, 'Video Game Enthusiast', 1000, 'Sports Fanatic', 1000]}
@@ -24,10 +23,6 @@ const Header = () => {
         <div className="ao__header-content__input">
           <a href="mailto:aolguin8097@gmail.com"><button type="button">Contact Me</button></a>
           <a href={resume}><button type="button">Download Resume</button></a>
-        </div>
-        <div className="ao__header-content__people">
-          <img src={people} alt="people" />
-          <p>1,600 people requested access a visit in last 24 hours</p>
         </div>
       </div>
       <div className="ao__header-image">
