@@ -62,6 +62,12 @@
   cursor: pointer;
 }
 
+.ao__navbar-menu_container button:hover{
+  background: #fff;
+  border-color: #fff;
+  color: #ff4820;
+}
+
 .ao__navbar-menu {
   margin-left: 1rem;
   display: none;
