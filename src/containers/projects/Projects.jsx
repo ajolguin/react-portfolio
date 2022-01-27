@@ -1,6 +1,6 @@
 import React from "react";
 import Article from "../../components/article/Article";
-import { projects01, projects02, projects03, projects04, projects05 } from "./imports";
+import { projects01, projects02, projects03, projects04, projects05, projects06, projects07 } from "./imports";
 import "./projects.css";
 
 const Projects = () => (
@@ -11,33 +11,48 @@ const Projects = () => (
       </h1>
     </div>
     <div className="ao__projects-container">
-      <div className="ao__projects-container_groupA">
+      {/* <div className="ao__projects-container_groupA">
         <Article
           imgUrl={projects01}
-          date="Sep 26, 2021"
-          text="GPT-3 and Open  AI is the future. Let us exlore how it is?"
+          date="Website Redesign"
+          text="SEE International"
         />
-      </div>
+      </div> */}
       <div className="ao__projects-container_groupB">
+        {/* NEED TO MAKE THIS DYNAMIC */}
         <Article
+          imgUrl={projects01}
+          date="Website Redesign"
+          text="SEE International"
+        /><Article
           imgUrl={projects02}
-          date="Sep 26, 2021"
-          text="GPT-3 and Open  AI is the future. Let us exlore how it is?"
+          date="E-Commerce Website"
+          text="JefmoCBD"
         />
         <Article
           imgUrl={projects03}
-          date="Sep 26, 2021"
-          text="GPT-3 and Open  AI is the future. Let us exlore how it is?"
+          date="Therapy Website"
+          text="New Hope Family Counseling Center"
         />
         <Article
           imgUrl={projects04}
-          date="Sep 26, 2021"
-          text="GPT-3 and Open  AI is the future. Let us exlore how it is?"
+          date="Therapy Website"
+          text="Revive Wellness"
         />
         <Article
           imgUrl={projects05}
-          date="Sep 26, 2021"
-          text="GPT-3 and Open  AI is the future. Let us exlore how it is?"
+          date="Website Redesign"
+          text="Your Children's Trees"
+        />
+        <Article
+          imgUrl={projects06}
+          date="E-Commerce Website"
+          text="Unapologetic LA"
+        />
+        <Article
+          imgUrl={projects07}
+          date="JavaScript Project"
+          text="Weather App"
         />
       </div>
     </div>
