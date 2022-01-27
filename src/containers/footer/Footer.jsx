@@ -4,7 +4,7 @@ import "./footer.css";
 
 const Footer = () => (
   <div className="ao__footer section__padding">
-    <div className="ao__footer-heading">
+    {/* <div className="ao__footer-heading">
       <h1 className="gradient__text">
         Do you want to step in to the future before others
       </h1>
@@ -12,7 +12,7 @@ const Footer = () => (
 
     <div className="ao__footer-btn">
       <p>Request Early Access</p>
-    </div>
+    </div> */}
 
     <div className="ao__footer-links">
       <div className="ao__footer-links_logo">
@@ -43,7 +43,7 @@ const Footer = () => (
     </div>
 
     <div className="ao__footer-copyright">
-      <p>@2021 GPT-3. All rights reserved.</p>
+      <p>@2022 Adrian Olguin</p>
     </div>
   </div>
 );

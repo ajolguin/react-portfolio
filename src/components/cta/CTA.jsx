@@ -4,11 +4,11 @@ import "./cta.css";
 const CTA = () => (
   <div className="ao__cta">
     <div className="ao__cta-content">
-      <p>Request Early Access to Get Started</p>
-      <h3>Register Today & start exploring the endless possibilities.</h3>
+      <p>Make a Difference Today</p>
+      <h3>Ready to grow your online presence? Let's connect!</h3>
     </div>
     <div className="ao__cta-btn">
-      <button type="button">Get Started</button>
+      <a href="mailto:aolguin8097@gmail.com"><button type="button">Contact Me</button></a>
     </div>
   </div>
 );

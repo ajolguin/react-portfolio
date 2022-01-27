@@ -23,7 +23,6 @@ const App = () => {
       <Services />
       <Possibility />
       <CTA />
-      <Footer />
     </div>
   );
 };
