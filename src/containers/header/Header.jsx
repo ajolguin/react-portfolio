@@ -2,7 +2,6 @@ import React from "react";
 import "./header.css";
 import adrian from "../../assets/adrian-bitmoji.png";
 import Typical from "react-typical";
-import resume from "../../assets/resume.pdf";
 
 const Header = () => {
   return (
@@ -39,7 +38,7 @@ const Header = () => {
           <a href="mailto:aolguin8097@gmail.com">
             <button type="button">Contact Me</button>
           </a>
-          <a href={resume}>
+          <a href="https://drive.google.com/file/d/1xeQyHKYfolsLr3uNEu7kJNlhorcM-8lr/view">
             <button type="button">Download Resume</button>
           </a>
         </div>
