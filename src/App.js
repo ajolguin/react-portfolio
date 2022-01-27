@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Footer,
-  Projects,
-  Possibility,
-  Services,
-  About,
-  Header,
-} from "./containers";
+import { Projects, About, Header } from "./containers";
 import { CTA, Brand, Navbar } from "./components";
 import "./App.css";
 
