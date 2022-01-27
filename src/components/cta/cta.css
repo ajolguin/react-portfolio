@@ -56,6 +56,12 @@
   min-width: 150px;
 }
 
+.ao__cta-btn button:hover{
+  background: #fff;
+  border-color: #fff;
+  color: #ff4820;
+}
+
 @media screen and (max-width: 650px) {
   .ao__cta {
     flex-direction: column;

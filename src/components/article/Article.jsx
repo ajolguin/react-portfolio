@@ -1,17 +1,17 @@
 import React from "react";
 import "./article.css";
 
-const Article = ({ imgUrl, date, text }) => (
+const Article = ({ linkURL, imgUrl, date, text, desc }) => (
   <div className="ao__blog-container_article">
     <div className="ao__blog-container_article-image">
-      <img src={imgUrl} alt="blog_image" />
+      <a href={linkURL}><img src={imgUrl} alt="projects" /></a>
     </div>
     <div className="ao__blog-container_article-content">
       <div>
         <p>{date}</p>
         <h3>{text}</h3>
+        <p>{desc}</p>
       </div>
-      <p>Learn More</p>
     </div>
   </div>
 );
