@@ -1,7 +1,7 @@
 .ao__blog-container_article {
   width: 100%;
   height: 100%;
-
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   background: var(--color-footer);
@@ -16,12 +16,13 @@
 .ao__blog-container_article-image img {
   width: 100%;
   height: 100%;
+  border-radius: 10px 10px 0 0;
 }
 
 .ao__blog-container_article-image img:hover {
   cursor: pointer;
   transform: scale(1.05);
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .ao__blog-container_article-content {

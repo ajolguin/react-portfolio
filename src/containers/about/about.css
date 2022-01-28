@@ -1,7 +1,7 @@
 .ao__about {
   display: flex;
   flex-direction: column;
-
+  border-radius: 10px;
   padding: 2rem;
   background: var(--color-footer);
 
