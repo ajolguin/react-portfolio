@@ -38,9 +38,6 @@ const Header = () => {
           <a href="mailto:aolguin8097@gmail.com">
             <button type="button">Contact Me</button>
           </a>
-          <a href="https://drive.google.com/file/d/1xeQyHKYfolsLr3uNEu7kJNlhorcM-8lr/view">
-            <button type="button">Download Resume</button>
-          </a>
         </div>
       </div>
       <div className="ao__header-image">
